@@ -21,7 +21,6 @@ public class TagNameLocators {
         driver.findElement(By.xpath("//button[contains(@type,'submit')]")).click();
         waitforelement(3000);
         driver.findElement(By.xpath("//*[text()='Log Out']")).click();
-
 //        driver.close();
         driver.quit();
 
